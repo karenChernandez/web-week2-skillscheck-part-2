@@ -27,10 +27,11 @@ return newArr
   
   //Code here
 function cookieLoversOnly(arr){
-return arr.filter(function(element){
-  element.favoriteCookie
+
+let cookie= arr.filter(function(element){
+  return element.favoriteCookie
 })
-return arr
+return cookie
 }
 
 //////////////////PROBLEM 3////////////////////
